@@ -32,11 +32,7 @@ svg > text {
 
 
 
-header i:hover {
-    color: #404040;
-    background-color: #E5EDE0;
-    transition-duration: 0.7s;
-}
+
 
 .social-icons, .nav {
     display: block;
@@ -50,6 +46,11 @@ header i:hover {
 @media all and (min-width: 800px) {
     .small-screen-icons {
         display: none;
+    }
+    header i:hover {
+        color: #404040;
+        background-color: #E5EDE0;
+        transition-duration: 0.7s;
     }
 }
 
