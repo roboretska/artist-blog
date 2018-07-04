@@ -1,0 +1,93 @@
+main{
+    background-color: #ECE2CC;
+    color: #404040;
+    min-height: 100%;
+}
+
+aside{
+    background-color: #D5B2A5;
+}
+aside div{
+    margin: 10px 0;
+}
+.profile-photo{
+    margin: 5px 0;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-photo > img{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.author-name {
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    color: #696969;
+}
+
+.author-info{
+    text-align: center;
+    font-size: 18px;
+    color: #787878;
+}
+.author-social{
+    display: flex;
+    justify-content: center;
+    overflow: no-display;
+    white-space: nowrap;
+}
+.author-social i{
+    font-size: 22px;
+    color: #787878;
+}
+
+
+.center-icon{
+    display: inline-block;
+}
+
+
+
+
+@media all and (max-width: 800px){
+    main, aside{
+        float: none;
+        padding: 20px;
+        overflow: hidden;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: -15px;
+    }
+
+    aside{
+        width: 100%;
+    }
+
+}
+@media all and (min-width: 801px){
+    main, aside{
+        float: left;
+        padding: 20px;
+        overflow: hidden;
+    }
+    main{
+        width: 70%;
+    }
+
+    aside{
+        width: 30%;
+    }
+    .content-wrapper{
+        display: flex;
+    }
+}

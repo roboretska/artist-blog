@@ -1,0 +1,28 @@
+.search-box-wrapper{
+    display: inline-flex;
+    width: 100%;
+}
+
+.search-box-button{
+    background: #787878;
+    width: 20%;
+    text-align: center;
+    padding-bottom: 0.2em;
+    border-bottom: 0.1em solid #404040;
+    border-top: 0.1em solid #404040;
+    border-right: 0.1em solid #404040;
+    border-left: none;
+    border-radius: 0 6em 6em 0;
+}
+.search-box-button i{
+    font-size: 16px;
+}
+.search-box-input{
+    font-size: 16px;
+    color: #787878;
+    border: 0.2em solid #404040;
+    border-radius: 6em 0 0 6em;
+    padding-left: 10px;
+    width: 80%;
+    background-color: #E5EDE0;
+}

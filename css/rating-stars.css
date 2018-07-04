@@ -1,0 +1,43 @@
+.rating-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.card-rate{
+    display: flex;
+    transform: rotateY(180deg) ;
+}
+.card-rate input[type="radio"]{
+    display: none;
+}
+.card-rate label{
+    display: block;
+    cursor: pointer;
+    max-width: 50px;
+    min-width: 25px;
+    font-size: 14px;
+
+}
+.card-rate label:before{
+    content: url("../icons/star-solid.svg");
+    position: relative;
+    display: block;
+    font-family: 'Crimson Text', serif;
+}
+.card-rate label:after{
+    content: url("../icons/star-solid-full.svg");
+    position: relative;
+    display: block;
+    top: -2em;
+    font-family: 'Crimson Text', serif;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.card-rate label:hover:after,
+.card-rate label:hover ~ label:after,
+.card-rate input:checked ~ label:after
+{
+    opacity: 1;
+}

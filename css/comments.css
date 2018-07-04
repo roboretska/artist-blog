@@ -1,0 +1,51 @@
+.comments{
+    display: grid;
+    grid-auto-row: repeat(4, auto);
+}
+.row-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.comment-photo{
+    display: inline-block;
+    font-size: 16px;
+    float: left;
+    width: 30%;
+    max-width: 400px;
+    margin-right: 0.5em;
+}
+.comment-photo img{
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #696969;
+    max-width: 400px;
+}
+span{
+    vertical-align: middle;
+}
+.comment-wrapper{
+    max-height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 65%;
+}
+.commentator-name{
+    color: #787878;
+    font-family: 'Crimson Text', serif;
+    font-size: 0.6em;
+
+}
+.comment-text {
+    color: #404040;
+    font-size: 0.55em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+

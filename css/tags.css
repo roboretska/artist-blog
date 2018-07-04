@@ -1,0 +1,39 @@
+.tags{
+    text-align: center;
+}
+.tags p{
+    display: block;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+}
+.tags ul > li{
+    list-style: none ;
+    display: inline-flex;
+    margin: 0 5px 0 0 ;
+    padding: 5px;
+    border: 0.05em solid #E5EDE0;
+    border-radius:10px;
+    transition: 0.5s ease-in-out;
+
+}
+.tags ul > li a{
+    padding: 2px;
+    font-size: 12px;
+    font-family: 'Crimson Text', serif ;
+    color: #404040;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #404040;
+}
+a:hover{
+    color: #404040;
+}
+a:active{
+    color: #404040;
+}
+.tags ul > li:hover{
+   background: #E5EDE0;
+}

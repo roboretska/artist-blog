@@ -1,0 +1,21 @@
+.icon-container{
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #404040;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.icon-container i{
+    display: inline-flex;
+
+}
+.icon-container{
+    transition: .5s ease-in-out;
+}
+.icon-container:hover{
+    box-shadow: inset 0 0 0 23px #B8DABB;
+}
+
+
