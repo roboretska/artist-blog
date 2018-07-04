@@ -7,20 +7,24 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 .comment-photo{
     display: inline-block;
     font-size: 16px;
     /*float: left;*/
     width: 30%;
-    max-width: 400px;
+    max-width: 200px;
+    max-height: 200px;
     margin-right: 0.5em;
+    flex-wrap: wrap;
+
 }
 .comment-photo img{
     display: inline-block;
     border-radius: 50%;
     border: 2px solid #696969;
-    max-width: 400px;
+    margin-right: 0px;
 }
 span{
     vertical-align: middle;
@@ -40,12 +44,23 @@ span{
 
 }
 .comment-text {
+    display: inline-block;
     color: #404040;
     font-size: 0.55em;
-    white-space: nowrap;
+    flex-wrap: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 
 }
-
-
+@media all and (min-width:800px) {
+    .comment-photo img {
+        width: 75px;
+        height: 75px;
+    }
+}
+@media all and (max-width: 800px){
+    .comment-photo img {
+        width: 75px;
+        height: 75px;
+    }
+}
