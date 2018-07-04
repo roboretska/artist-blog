@@ -47,6 +47,15 @@ aside div{
     color: #787878;
 }
 
+.subscribe input[type=text] {
+    width: 100%;
+    border: none;
+    background: #D5B2A5;
+    border-bottom: 2px solid #787878;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
 
 .center-icon{
     display: inline-block;
