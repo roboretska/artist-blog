@@ -54,7 +54,7 @@ svg > text {
     }
 }
 
-@media all and (max-width: 801px) {
+@media all and (max-width: 800px) {
     .social-icons > i {
         display: none;
     }

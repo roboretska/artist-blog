@@ -82,7 +82,7 @@ aside div{
     }
 
 }
-@media all and (min-width: 801px){
+@media all and (min-width: 800px){
     main, aside{
         float: left;
         padding: 20px;
