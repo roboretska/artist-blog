@@ -1,11 +1,7 @@
 .tags{
     text-align: center;
 }
-.tags p{
-    display: block;
-    font-family: 'Crimson Text', serif;
-    font-size: 18px;
-}
+
 .tags ul > li{
     list-style: none ;
     display: inline-flex;

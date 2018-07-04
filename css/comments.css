@@ -11,7 +11,7 @@
 .comment-photo{
     display: inline-block;
     font-size: 16px;
-    float: left;
+    /*float: left;*/
     width: 30%;
     max-width: 400px;
     margin-right: 0.5em;
@@ -30,7 +30,7 @@ span{
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    float: left;
+    /*float: left;*/
     width: 65%;
 }
 .commentator-name{
