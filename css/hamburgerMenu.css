@@ -43,6 +43,9 @@
 .hamburger-menu  li{
     color: #404040;
 }
+.hamburger-menu a{
+    color: #404040;
+}
 .nav-trigger:checked ~ .hamburger-menu {
     opacity: 1;
     box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
