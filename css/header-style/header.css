@@ -51,7 +51,10 @@ svg > text {
     header i:hover {
         color: #404040;
         background-color: #E5EDE0;
-        transition-duration: 0.7s;
+        -webkit-transition: .7s ease-out;
+        -moz-transition: .7s ease-out;
+        -o-transition: 0.7s ease-out;
+        transition: 0.7s ease-out;
     }
 }
 

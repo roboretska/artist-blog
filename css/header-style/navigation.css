@@ -6,6 +6,9 @@
 .nav ul>li{
     display: inline-block;
     padding: 5px;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -o-transition: 0.2s ease-out;
     transition: 0.2s ease-out;
 }
 

@@ -20,17 +20,20 @@
 
 }
 .card-rate label:before{
-    content: url("../icons/star-solid.svg");
+    content: url("../../icons/star-solid.svg");
     position: relative;
     display: block;
     font-family: 'Crimson Text', serif;
 }
 .card-rate label:after{
-    content: url("../icons/star-solid-full.svg");
+    content: url("../../icons/star-solid-full.svg");
     position: relative;
     display: block;
     top: -2em;
     font-family: 'Crimson Text', serif;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     opacity: 0;
 }
