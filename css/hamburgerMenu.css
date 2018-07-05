@@ -5,8 +5,12 @@
 }
 
 .hamburger-wrapper label{
-    position:absolute;
     z-index: 10;
+    position: absolute;
+}
+
+.icon-cancel{
+    position:fixed;
 }
 .hamburger-wrapper{
     display: block;
@@ -20,7 +24,7 @@
 }
 .hamburger-menu{
     list-style: none;
-    position: absolute;
+    position: fixed;
     background-color: #E5EDE0;
     height: 100%;
     width: 100%;
