@@ -40,7 +40,7 @@
 .hamburger-menu{
     padding-top: 50px;
 }
-.hamburger-menu  li>a{
+.hamburger-menu  li{
     color: #404040;
 }
 .nav-trigger:checked ~ .hamburger-menu {
