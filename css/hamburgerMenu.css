@@ -36,12 +36,10 @@
     display: block;
     padding: 10px 20px;
     border: 1px solid #A0A0A0;
+    color: #404040;
 }
 .hamburger-menu{
     padding-top: 50px;
-}
-.hamburger-menu  li{
-    color: #404040;
 }
 .hamburger-menu a{
     color: #404040;
