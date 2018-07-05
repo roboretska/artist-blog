@@ -60,6 +60,8 @@ aside div{
 
 .center-icon{
     display: inline-block;
+    overflow: hidden;
+    text-overflow: clip;
 }
 
 
