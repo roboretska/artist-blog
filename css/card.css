@@ -1,46 +1,55 @@
+
 .card-wrapper{
-    display: inline-flex;
-    flex-direction: column;
-    align-content: center;
+    /*display: inline-flex;*/
+    /*flex-direction: column;*/
+    /*align-content: center;*/
     background-color: rgba(184, 218, 187, 0.5);
-    min-width: 250px;
-    max-width: 700px;
-    padding: 10px;
-    margin: 5px 15px 20px 15px;
 }
 
 
-.card-wrapper h5{
-    text-align: center;
-}
-.card-wrapper p{
-    text-align: center;
-}
-.article-footer{
+/*.card-wrapper h5{*/
+    /*text-align: center;*/
+/*}*/
+/*.card-wrapper p{*/
+    /*text-align: center;*/
+/*}*/
+/*.article-footer{*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+/*}*/
+/*.card-time{*/
+    /*display: inline-flex;*/
+    /*justify-items: flex-end;*/
+    /*align-items: flex-end;*/
+    /*width: 29%;*/
+    /*text-align: right;*/
+/*}*/
+/*.card-time p{*/
+    /*font-size: 14px;*/
+    /*color: #787878;*/
+    /*padding-bottom: 5px;*/
+/*}*/
+
+/*.article-comment{*/
+    /*width: 70%;*/
+/*}*/
+/*.article-comment i{*/
+    /*color: #404040;*/
+/*}*/
+/*.article-comment p{*/
+    /*display: inline-flex;*/
+    /*color: #404040;*/
+    /*font-size: 0.5em;*/
+/*}*/
+
+.cards{
     display: flex;
     flex-direction: row;
-}
-.card-time{
-    display: inline-flex;
-    justify-items: flex-end;
-    align-items: flex-end;
-    width: 29%;
-    text-align: right;
-}
-.card-time p{
-    font-size: 14px;
-    color: #787878;
-    padding-bottom: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.article-comment{
-    width: 70%;
-}
-.article-comment i{
-    color: #404040;
-}
-.article-comment p{
-    display: inline-flex;
-    color: #404040;
-    font-size: 0.5em;
+.card-wrapper{
+    flex: 0 1 calc(33% - 0.5em);
+    margin-bottom: 2em;
 }

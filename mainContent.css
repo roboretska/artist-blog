@@ -1,4 +1,5 @@
 main{
+    display: inline-block;
     background-color: #ECE2CC;
     color: #404040;
     min-height: 100%;
