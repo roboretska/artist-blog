@@ -4,21 +4,26 @@
     }
 }
 
+.hamburger-wrapper label{
+    position:absolute;
+    z-index: 10;
+}
 .hamburger-wrapper{
-    display: inline-flex;
+    display: block;
 }
 .nav-trigger{
     display: none;
 }
  .icon-cancel{
     display: none;
+     color: #404040;
 }
 .hamburger-menu{
     list-style: none;
     position: absolute;
-    left: 45px;
-    top: 30px;
     background-color: #E5EDE0;
+    height: 100%;
+    width: 100%;
     color: #787878;
     opacity: 0;
     z-index: 5;
@@ -29,7 +34,9 @@
     padding: 10px 20px;
     border: 1px solid #A0A0A0;
 }
-
+.hamburger-menu{
+    padding-top: 50px;
+}
 
 .nav-trigger:checked ~ .hamburger-menu {
     opacity: 1;
