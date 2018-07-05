@@ -21,6 +21,8 @@
 
 .card-time {
     display: inline-flex;
+    justify-content: flex-end;
+    align-content: flex-end;
     justify-items: flex-end;
     align-items: flex-end;
     width: 29%;
