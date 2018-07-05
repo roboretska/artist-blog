@@ -1,16 +1,13 @@
 .card-wrapper img {
-    display: inline-flex;
-    align-content: center;
-    max-height: 300px;
-    min-height: 150px;
-    border-radius: 4px;
-    overflow: hidden;
+    max-width: 100%;
+    height: auto;
     transition: 0.3s linear;
 
 
 }
 
 .article-image-wrapper{
+    max-width: 100%;
     overflow: hidden;
 }
 .card-wrapper img:hover{
